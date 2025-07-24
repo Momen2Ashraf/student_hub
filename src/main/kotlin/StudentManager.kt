@@ -1,11 +1,4 @@
-data class Student(
-    val id: Int,
-    var name: String,
-    var grade: String,
-    var status: String? = null,
-    var gpa: Double? = null,
-    var notes: String? = null
-)
+
 
 object StudentManager {
     private val students = mutableListOf<Student>()
