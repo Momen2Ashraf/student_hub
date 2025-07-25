@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e80f44c-06d9-4ac1-afe4-6f2e72125a38" name="Changes" comment="" />
+    <list default="true" id="9e80f44c-06d9-4ac1-afe4-6f2e72125a38" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StudentManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_hub/src/main/kotlin/Command.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_hub/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/student_hub/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_hub/src/main/kotlin/Student.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,24 +21,33 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Momen2Ashraf"
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Momen2Ashraf&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Momen2Ashraf/Neonatal-Nav.git",
-    "accountId": "14b43aef-6342-4bbc-b63a-91aed6660f41"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Momen2Ashraf/Neonatal-Nav.git&quot;,
+    &quot;accountId&quot;: &quot;14b43aef-6342-4bbc-b63a-91aed6660f41&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="30KFsqbG8PLcc6FRjIiGCSqcpyW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,8 +55,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build student_hub.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.StudentManagerKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "momen",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Sigma/Desktop/Depi/student_hub/student_hub",
     "onboarding.tips.debug.path": "C:/Users/Sigma/Desktop/Depi/student_hub/src/main/kotlin/Main.kt"
   }

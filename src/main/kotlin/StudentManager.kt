@@ -1,22 +1,7 @@
-data class Student(
-    val id: Int,
-    var name: String,
-    var grade: String,
-    var status: String? = null,
-    var gpa: Double? = null,
-    var notes: String? = null
-)
 
-object StudentManager {
-    private val students = mutableListOf<Student>()
-
+class StudentManager(val students: List<Student>) {
     init {
-        // Sample data for testing
-        students.add(Student(1, "Zeina", "A", "passed", 3.8, "Excellent student"))
-        students.add(Student(2, "Ahmed", "B", "active", 2.9, "Needs improvement"))
-        students.add(Student(3, "Laila", "A", "passed", 3.7))
-        students.add(Student(4, "Omar", "C", "failed", null))
-        students.add(Student(5, "Mona", "B", "active", 3.0))
+        getOrFilterStudents()
     }
 
     fun viewAllStudents() {
@@ -75,52 +60,55 @@ object StudentManager {
             println("No passed students with GPA found.\n")
         }
     }
-}
+    fun getOrFilterStudents(){
+        while (true) {
+            println("1. View all students")
+            println("2. Filter by name")
+            println("3. Filter by status")
+            println("4. Filter by GPA range")
+            println("5. Show average GPA of passed students")
+            println("6. Exit")
+            print("Choose: ")
 
-fun main() {
-    while (true) {
-        println("StudentHub Menu")
-        println("1. View all students")
-        println("2. Filter by name")
-        println("3. Filter by status")
-        println("4. Filter by GPA range")
-        println("5. Show average GPA of passed students")
-        println("6. Exit")
-        print("Choose: ")
-
-        when (readLine()?.trim()) {
-            "1" -> StudentManager.viewAllStudents()
-            "2" -> {
-                print("Enter name: ")
-                val name = readLine().orEmpty()
-                StudentManager.filterByName(name)
-            }
-            "3" -> {
-                print("Enter status: ")
-                val status = readLine().orEmpty()
-                StudentManager.filterByStatus(status)
-            }
-            "4" -> {
-                try {
-                    print("Enter min GPA: ")
-                    val min = readLine()?.toDoubleOrNull()
-                    print("Enter max GPA: ")
-                    val max = readLine()?.toDoubleOrNull()
-                    if (min != null && max != null) {
-                        StudentManager.filterByGpaRange(min, max)
-                    } else {
-                        println("Invalid GPA input\n")
-                    }
-                } catch (e: Exception) {
-                    println("Error: ${e.message}\n")
+            when (readLine()?.trim()) {
+                "1" -> viewAllStudents()
+                "2" -> {
+                    print("Enter name: ")
+                    val name = readLine().orEmpty()
+                    filterByName(name)
                 }
+                "3" -> {
+                    print("Enter status: ")
+                    val status = readLine().orEmpty()
+                  filterByStatus(status)
+                }
+                "4" -> {
+                    try {
+                        print("Enter min GPA: ")
+                        val min = readLine()?.toDoubleOrNull()
+                        print("Enter max GPA: ")
+                        val max = readLine()?.toDoubleOrNull()
+                        if (min != null && max != null) {
+                            filterByGpaRange(min, max)
+                        } else {
+                            println("Invalid GPA input\n")
+                        }
+                    } catch (e: Exception) {
+                        println("Error: ${e.message}\n")
+                    }
+                }
+                "5" -> showAveragePassedGpa()
+                "6" -> {
+                    println("Goodbye.")
+                    break
+                }
+                else -> println("Sorry.Invalid option\n")
             }
-            "5" -> StudentManager.showAveragePassedGpa()
-            "6" -> {
-                println("Goodbye.")
-                break
-            }
-            else -> println("Sorry.Invalid option\n")
         }
     }
+
 }
+
+
+//fun main() {
+//}
