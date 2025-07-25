@@ -1,3 +1,4 @@
+package exp
 sealed class Command {
     data class AddStudent(val student: Student) : Command()
     data class UpdateStudentInfo(val id: Int) : Command()

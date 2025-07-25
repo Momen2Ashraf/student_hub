@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e80f44c-06d9-4ac1-afe4-6f2e72125a38" name="Changes" comment="update,Add and remove functions">
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_2_0_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_2_0_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit5_2_0_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/src/main/kotlin/utils/utils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +38,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Momen2Ashraf/Neonatal-Nav.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Momen2Ashraf/student_hub.git&quot;,
     &quot;accountId&quot;: &quot;14b43aef-6342-4bbc-b63a-91aed6660f41&quot;
   }
 }</component>
@@ -62,6 +46,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="30KFsqbG8PLcc6FRjIiGCSqcpyW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,10 +57,10 @@
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.StudentManagerKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "final__project",
-    "last_opened_file_path": "C:/Users/Sigma/Downloads/student_hub",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Sigma/Downloads",
     "onboarding.tips.debug.path": "C:/Users/Sigma/Desktop/Depi/student_hub/src/main/kotlin/Main.kt",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

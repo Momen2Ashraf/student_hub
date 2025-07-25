@@ -1,3 +1,4 @@
+package exp
 interface VaildiateData {
 
     fun validateStudent(student: Student,students: List<Student>): Boolean{

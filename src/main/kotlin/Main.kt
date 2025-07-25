@@ -1,3 +1,5 @@
+package exp
+
 val students = mutableListOf<Student>()
 val student = Student(5, "Momen", gpa = 4.0)
 fun String.hasDigit() = if(this.any(){it.isDigit()})  true else false
