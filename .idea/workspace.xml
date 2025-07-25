@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e80f44c-06d9-4ac1-afe4-6f2e72125a38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StudentManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/src/main/kotlin/Command.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/student_hub/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_hub/src/main/kotlin/Student.kt" beforeDir="false" />
-    </list>
+    <list default="true" id="9e80f44c-06d9-4ac1-afe4-6f2e72125a38" name="Changes" comment="update and Add functions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +67,19 @@
       <option name="presentableId" value="Default" />
       <updated>1753368569637</updated>
     </task>
+    <task id="LOCAL-00001" summary="update and Add functions">
+      <option name="closed" value="true" />
+      <created>1753467263354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753467263355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update and Add functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="update and Add functions" />
   </component>
 </project>
